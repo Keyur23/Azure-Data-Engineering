@@ -23,6 +23,8 @@ This repository contains the following Projects:
 **1. FIFA Analysis Using Azure Services**
 - This FIFA Data Engineering project leverages Azure cloud services to process and analyze FIFA datasets efficiently. Using an Azure Storage Account, the raw data is stored in dedicated containers before being ingested into Azure Data Factory, where a pipeline is created to automate data movement. The data is then processed using Azure Data Lake Storage Gen2 and transformed with Azure Databricks for cleaning and structuring. Finally, Azure Synapse Analytics and SQL are utilized for advanced analysis, enabling comprehensive insights into FIFA datasets. This project ensures a seamless, scalable, and efficient data workflow for FIFA-related analytics.
 
+(Note: In FIFA Transformation.ipynb, client id, tenant id and secret key are removed by me for security reasons.)
+
 
 ## Azure Services Used 💡
 
